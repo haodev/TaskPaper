@@ -1,3 +1,11 @@
+reader_jira_api_client:
+    resource: "@ReaderJiraApiClientBundle/Resources/config/routing.yml"
+    prefix:   /
+
+reader_jira_reader:
+    resource: "@ReaderJiraReaderBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
